@@ -8,9 +8,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <GridPane gridLinesVisible="true" layoutX="112.0" layoutY="97.0" prefHeight="407.0" prefWidth="576.0" AnchorPane.bottomAnchor="96.0" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="112.0" AnchorPane.topAnchor="97.0">
+      <GridPane gridLinesVisible="true" layoutX="112.0" layoutY="97.0" prefHeight="407.0" prefWidth="576.0" AnchorPane.bottomAnchor="96.0" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="112.0" AnchorPane.topAnchor="97.0" onMouseClicked="#playOnTurn" fx:id="myGrid">
         <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -21,9 +21,56 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" GridPane.halignment="CENTER" fx:id="txt0">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" fx:id="txt1">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" fx:id="txt2">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1" fx:id="txt3">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" fx:id="txt4">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" fx:id="txt5">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="2" fx:id="txt6">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" fx:id="txt7">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" fx:id="txt8">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+         </children>
       </GridPane>
-      <Button layoutX="335.0" layoutY="522.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="131.0" text="Novo Jogo" AnchorPane.bottomAnchor="34.0" AnchorPane.leftAnchor="335.0" AnchorPane.rightAnchor="334.0" AnchorPane.topAnchor="522.0" />
-      <Text layoutX="342.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="116.13671875">
+      <Button layoutX="335.0" layoutY="522.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="131.0" text="Novo Jogo" AnchorPane.bottomAnchor="34.0" AnchorPane.leftAnchor="335.0" AnchorPane.rightAnchor="334.0" />
+      <Text layoutX="342.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="116.13671875" AnchorPane.leftAnchor="342.0" AnchorPane.rightAnchor="341.86328125" AnchorPane.topAnchor="35.1015625">
          <font>
             <Font size="24.0" />
          </font>
